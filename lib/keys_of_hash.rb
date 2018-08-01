@@ -3,7 +3,7 @@ class Hash
     array = []
     animals.each do |key, value|
       if value == arguments
-        array << key, value
+        array << key
   end
   end
   return array
