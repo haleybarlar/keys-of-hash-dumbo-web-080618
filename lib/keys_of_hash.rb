@@ -1,5 +1,7 @@
 class Hash
   def keys_of(arguments)
-    # code goes here
+    array = []
+    array << arguments
+    return array
   end
 end
