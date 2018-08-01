@@ -2,9 +2,9 @@ require 'pry'
 class Hash
   def keys_of(arguments)
     array = []
-    binding.pry
+    
     animals.each do |key, value|
-      
+      binding.pry
       if value == arguments
         array << key
         
