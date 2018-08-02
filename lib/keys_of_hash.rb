@@ -5,8 +5,10 @@ class Hash
     arguments.each do |one|
       self.each do |key, value|
         if one == value
-          
+          array << key
+        end
+      end
+    end
     return array
-    
   end
 end
