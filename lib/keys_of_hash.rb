@@ -2,8 +2,7 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     array = []
-    animal[arguments]
-    array << 
+    arguments.each do |key, value
     return array
     
   end
