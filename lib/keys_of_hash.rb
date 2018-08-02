@@ -4,7 +4,6 @@ class Hash
     array = []
     arguments.each do |one_argument|
       self.each do |key, value|
-        binding.pry
         if one_argument == value
           array << key
         end
