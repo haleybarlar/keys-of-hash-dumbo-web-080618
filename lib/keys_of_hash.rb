@@ -2,9 +2,9 @@ require 'pry'
 class Hash
   def keys_of(*arguments)
     array = []
-    arguments.each do |one|
+    arguments.each do |x|
       self.each do |key, value|
-        if one == value
+        if x == value
           array << key
         end
       end
